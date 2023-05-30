@@ -28,7 +28,7 @@ use App\Models\LogPengajuan;
 use App\Models\ViewCost;
 use App\Models\User;
 use PDF;
-class ProjectController extends Controller
+class RProjectController extends Controller
 {
     
     public function index(request $request)
