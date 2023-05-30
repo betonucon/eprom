@@ -35,7 +35,7 @@ use App\Models\ProjectProgres;
 use App\Models\ViewCost;
 use App\Models\User;
 use PDF;
-class KontrakController extends Controller
+class RKontrakController extends Controller
 {
     
     public function index(request $request)
