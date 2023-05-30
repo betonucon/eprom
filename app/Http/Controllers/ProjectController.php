@@ -102,7 +102,7 @@ class ProjectController extends Controller
             if($data->status_id==1){
                 return view('project.view_data',compact('template','data','disabled','id','nom','nomper','nommat','tab','nomjasa'));
             }else{
-                if($id==0){
+                if($id=='0'){
                     return view('project.view_data',compact('template','data','disabled','id','nom','nomper','nommat','tab','nomjasa'));
                 }else{
                     if($data->status_id==7){
